@@ -12,7 +12,10 @@ Contents:
    :maxdepth: 2
 
    quickstart
-
+   projects
+   columns
+   insights
+   output
 
 
 
