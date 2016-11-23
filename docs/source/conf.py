@@ -40,6 +40,7 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
+    'sphinx.ext.graphviz',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -159,13 +160,13 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 #
-# html_logo = None
+html_logo = 'images/logo.png'
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 #
-# html_favicon = None
+html_favicon = 'images/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -431,4 +432,11 @@ epub_exclude_files = ['search.html']
 # epub_use_index = True
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3/', None),
+    'boto3': ('https://boto3.readthedocs.io/en/latest/', None),
+    'networkx': ('https://networkx.readthedocs.io/en/stable/', None),
+    'faker': ('https://faker.readthedocs.io/en/master/', None),
+    'statsd': ('https://statsd.readthedocs.io/en/v3.2.1/', None),
+    'asteval': ('https://newville.github.io/asteval/', None)
+}
