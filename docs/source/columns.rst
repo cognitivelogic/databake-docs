@@ -19,6 +19,8 @@ Providers
 
 Providers are functions which generate random values.
 
+Locales
+
 Wrappers
 --------
 Wrappers allow for a series of operations to be applied to each value generated for a column. These will be applied in the sequence in which they are added.

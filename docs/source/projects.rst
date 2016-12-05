@@ -6,7 +6,7 @@ Projects let you keep track of your settings so that you can modify or regenerat
 Templates
 ---------
 
-Templates are a number of prebuilt projects that can be used as examples datasets for reference or to be extended and modified for your own use. To use a template, simply select one from the dropdown at the initial DataBake screen or after selecting a new project. From there you can proceed as you would for a regular project.
+Templates are a number of pre-built projects that can be used as examples datasets for reference or to be extended and modified for your own use. To use a template, simply select one from the drop-down at the initial DataBake screen or after selecting a new project. From there you can proceed as you would for a regular project.
 
 Some examples of the kinds of relationships in these example projects can be found here (TODO: Link to marketing blog with graphs)
 
