@@ -15,7 +15,8 @@ Contents:
    projects
    columns
    insights
-   output
+   preview
+   export
 
 
 

@@ -62,7 +62,7 @@ source_parsers = {'.md': CommonMarkParser, }
 master_doc = 'index'
 
 # General information about the project.
-project = 'Databake'
+project = 'DataBake'
 copyright = '2016, Cognitive Logic'
 author = 'John Children'
 
@@ -155,12 +155,12 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
-# html_short_title = None
+html_short_title = 'DataBake'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 #
-html_logo = 'images/logo.png'
+# html_logo = 'images/logo.png'
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -262,7 +262,7 @@ latex_elements = {
 
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+    'pointsize': '11pt',
 
     # Additional stuff for the LaTeX preamble.
     #
@@ -271,12 +271,16 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
+
+    # Remove blank pages after sections
+    'classoptions': ',openany,oneside',
+    'babel': '\\usepackage[english]{babel}'
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [(master_doc, 'Databake.tex', 'Databake Documentation',
+latex_documents = [(master_doc, 'DataBake.tex', 'DataBake Documentation',
                     'John Children', 'manual'), ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -295,7 +299,7 @@ latex_documents = [(master_doc, 'Databake.tex', 'Databake Documentation',
 
 # If true, show URL addresses after external links.
 #
-# latex_show_urls = False
+latex_show_urls = True
 
 # Documents to append as an appendix to all manuals.
 #
@@ -315,7 +319,7 @@ latex_documents = [(master_doc, 'Databake.tex', 'Databake Documentation',
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, 'databake', 'Databake Documentation', [author], 1)]
+man_pages = [(master_doc, 'databake', 'DataBake Documentation', [author], 1)]
 
 # If true, show URL addresses after external links.
 #
@@ -327,7 +331,7 @@ man_pages = [(master_doc, 'databake', 'Databake Documentation', [author], 1)]
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Databake', 'Databake Documentation', author, 'Databake',
+    (master_doc, 'DataBake', 'DataBake Documentation', author, 'DataBake',
      'One line description of project.', 'Miscellaneous'),
 ]
 
@@ -438,5 +442,6 @@ intersphinx_mapping = {
     'networkx': ('https://networkx.readthedocs.io/en/stable/', None),
     'faker': ('https://faker.readthedocs.io/en/master/', None),
     'statsd': ('https://statsd.readthedocs.io/en/v3.2.1/', None),
-    'asteval': ('https://newville.github.io/asteval/', None)
+    'asteval': ('https://newville.github.io/asteval/', None),
+    'numpy': ('https://docs.scipy.org/doc/numpy/', None)
 }
