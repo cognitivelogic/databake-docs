@@ -1,19 +1,21 @@
 Quickstart
 ==========
 
+(What to accomplish)
+
 To get started, enter a project name under the 'Create a new project' heading and click 'Let's go'. This will enable you to track your projects and change the datasets later. Alternatively, you can load a template dataset.
 
 .. image:: images/quickstart/createproject.png
 
 Creating a new project will take you through to the main page - where you can define the variables and the insights in your personalised generated dataset. Project names on the top left-hand side as a title above the table list. Below, you can re-name the table you are about to generate – this is especially relevant if you plan on generating multiple tables in the same project.
 
+You will also notice that a help icon on the top right of the main body and in various other places throughout the site. This will lead to the documentation for that section if you need to gain more insight into the process. If the documentation is not able to help you can also send a support ticket through the tab on the right hand side of the page.
+
 .. image:: images/quickstart/projectscreen.png
 
 To the right of the project name, you will see four tabs titled 'Columns', 'Insights', 'Preview' and 'Export' respectively. These tabs will lead you through the process of generating a dataset using DataBake. Selecting the column tab, we will begin by defining the columns of our table.
 
-You will also notice that a help icon on the top right of the column tab and in various other places throughout the site. This will lead to the documentation for that section if you need to gain more insight into the process. If the documentation is not able to help you can also send a support ticket through the tab on the right hand side of the page.
-
-Firstly, define the column variables by clicking the 'Add' button underneath the 'Columns' tab. A dialog box will appear and, as you can see, there is a drop down menu containing a range of pre-defined columns arranged by group. There is also the option to generate your own customer columns.
+Firstly, define the column variables by clicking the 'Add' button underneath the 'Columns' tab. A dialog box will appear and, as you can see, there is a drop down menu containing a range of pre-defined columns arranged by group. There is also the option to generate your own columns based on a custom specification.
 
 .. image:: images/quickstart/addcolumn.png
 
