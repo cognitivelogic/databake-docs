@@ -11,7 +11,7 @@ A number of pre-defined column types are available that can be easily added to y
 Custom
 ------
 
-Alternatively, column types can be defined manually. Users can add `providers`_ and `wrappers`_ to define the ways in which the data will be generated. 
+Alternatively, column types can be defined manually. Users can add `providers`_ and `wrappers`_ to define the ways in which the data will be generated.
 
 Providers
 ---------
