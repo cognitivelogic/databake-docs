@@ -5,7 +5,7 @@ DataBake can generate insights in your dataset by through a range of methods.
 
 The simplest method is defining the literal arguments - which can give you a constant value for a variable in a generation function. For example, a variable with normal distribution can be changed to show insights by changing the mean and standard deviation of the :doc:`columns`.
 
-The expressions which define the functions's arguments are processed using :func:`ast.literal_eval`. These are then passed to the function where the new values are generated. This allows for some basic operators to be utilised - while still maintaining a good level of performance. Some examples of the types of literals that can be used in this way are:
+The expressions which define the functions's arguments are processed using :func:`ast.literal_eval`. These are then passed to the function where the new values are generated. This allows for some basic operators to be utilised - while still maintaining a good level of performance. Some examples of the types of literals that can be used in this way are::
 
     5
     3.14
@@ -65,6 +65,8 @@ DataBake will display a simplified version of these relationships in a graph on 
 
 Additional features
 -------------------
+
+
 
 ['abs', 'all', 'any', 'bin', 'bool', 'chr', 'complex', 'dir', 'divmod',
        'float', 'format', 'hash', 'hex',

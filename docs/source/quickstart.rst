@@ -31,14 +31,16 @@ As an example, next 'Add' in a custom column. Type an example column name, such 
 
 .. image:: quickstart/threecolumns.png
 
-Now that we have defined our columns we can define the relationships between them; click on the 'Insights' tab to add the relationships between the variables. 
+Now that we have defined our columns we can define the relationships between them; click on the 'Insights' tab to begin adding the relationships between the variables. 
 
-Click 'Add' and another dialog box will appear. Click on the 'Column' drop down menu and select 'Number'. In the 'Mean' box type ``age ** 2``. As you type 'age', a blue box will appear below – click on this and the text will automatically update to ``Age ** 2``. Clicking 'Submit' will return you to the Insights tab and you can see the connection between 'Age' and 'Number' in the column relationships box on the left hand side. 
+Click 'Add' and another dialog box will appear which will allow you to define how a column's values are calculated. Click on the 'Column' drop down menu and select 'Number'. In the 'Mean' box type ``age ** 2``. As you type 'age', a blue box will appear below – click on this and the text will automatically update to ``Age ** 2``. Clicking 'Submit' will return you to the Insights tab and you can see the connection between 'Age' and 'Number' in the column relationships box on the left hand side. 
 
-You can now click on 'Preview' to view your dataset and insights in a table and charts.
+You can now click on 'Preview' to view your dataset and insights in a table and charts. The default preview tab is the charts, which display histograms and bar charts built from a sample of the dataset. For more information see the :doc:`preview` section of the documentation.
 
 .. image:: images/quickstart/previewcharts.png
 
+If you are interested in seeing a sample of raw data, a preview is available in the data tab where you can see a preview of 100 rows. 
+
 .. image:: images/quickstart/previewdata.png
 
-Finally, click the 'Export' tab to export your dataset and share DataBake on Facebook.
+Finally, click the 'Export' tab to :doc:`export` your dataset and share DataBake on Facebook. 
