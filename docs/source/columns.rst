@@ -20,6 +20,13 @@ Providers
 Providers are functions which generate random values.
 
 Locales
+^^^^^^^
+
+Distributions
+^^^^^^^^^^^^^
+
+Choice Distributions
+^^^^^^^^^^^^^^^^^^^^
 
 Wrappers
 --------
@@ -27,10 +34,15 @@ Wrappers allow for a series of operations to be applied to each value generated 
 
 At this time the following operations are available::
 
-    add -> offset the value by a float or int
-    multiply -> multiply the value by a float or int
-    max -> filter out results greater than a maximum
-    min -> filter out results smaller than a minimum
-    round -> reduce a float value to a number of digits after the decimal point
+=========== ====================================================================
+Wrapper     Effect
+=========== ====================================================================
+add         offset the value by a float or int.
+multiply    multiply the value by a float or int.
+max         filter out results greater than a maximum.
+min         filter out results smaller than a minimum.
+round       reduce a float value to a number of digits after the decimal point.
+=========== ====================================================================
+
 
 If the requested operation cannot be applied to the value a None type will be returned instead.

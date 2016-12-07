@@ -29,7 +29,7 @@ Next, click 'Add' again, scroll down the drop down menu to demographic data and 
 
 As an example, next 'Add' in a custom column. Type an example column name, such as 'Number'. Click on the 'Provider' drop down menu, and select 'Normal'. This will add a third column to the table.
 
-.. image:: quickstart/threecolumns.png
+.. image:: images/quickstart/threecolumns.png
 
 Now that we have defined our columns we can define the relationships between them; click on the 'Insights' tab to begin adding the relationships between the variables. 
 
