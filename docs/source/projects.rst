@@ -8,7 +8,7 @@ Templates
 
 Templates are a number of pre-built projects that can be used as examples datasets for reference or to be extended and modified for your own use. To use a template, simply select one from the drop-down at the initial DataBake screen or after selecting a new project. From there you can proceed as you would for a regular project.
 
-Some examples of the kinds of relationships in these example projects can be found on the `main site <databake.io>`_ in the graphs gallery.
+Some examples of the kinds of relationships in these example projects can be found on the `main site <http://databake.io>`_ in the graphs gallery.
 
 Tables
 ------

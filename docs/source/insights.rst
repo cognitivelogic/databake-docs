@@ -71,40 +71,40 @@ In order to provide flexibility in dataset creation a number of extra functions 
 Builtins
 ^^^^^^^^
 
-====================  ===========================================================================================
-Function              Effect
-====================  ===========================================================================================
-:func:`abs`           Returns the absolute value of a numerical object.
-:func:`all`           Returns true if all conditions in an iterable are met.
-:func:`any`           Returns true if any conditions in an iterable are met.
-:func:`chr`           Returns the string character of an integer.
-:func:`dir`           Returns the list of names in the current scope.
-:func:`hash`          Returns the hash value of the object.
-:func:`len`           Returns the number of items of an object.
-:func:`max`           Returns the largest value in an object.
-:func:`min`           Returns the smallest value in an object.
-:func:`ord`           Returns integer representation of a unicode character.
-:func:`pow`           Returns the first argument to the power of the second.
-:func:`round`         Returns the first value rounded to digits specified by the second.
-:func:`sorted`        Returns a sorted version of an object.
-:func:`sum`           Returns the sum of all objects.
-====================  ===========================================================================================
+============================================  ===========================================================================================
+Function                                      Effect
+============================================  ===========================================================================================
+:func:`abs`                                   Returns the absolute value of a numerical object.
+:func:`all`                                   Returns true if all conditions in an iterable are met.
+:func:`any`                                   Returns true if any conditions in an iterable are met.
+:func:`chr`                                   Returns the string character of an integer.
+:func:`dir`                                   Returns the list of names in the current scope.
+:func:`hash`                                  Returns the hash value of the object.
+:func:`len`                                   Returns the number of items of an object.
+:func:`max`                                   Returns the largest value in an object.
+:func:`min`                                   Returns the smallest value in an object.
+:func:`ord`                                   Returns integer representation of a unicode character.
+:func:`pow`                                   Returns the first argument to the power of the second.
+:func:`round`                                 Returns the first value rounded to digits specified by the second.
+:func:`sorted`                                Returns a sorted version of an object.
+:func:`sum`                                   Returns the sum of all objects.
+============================================  ===========================================================================================
 
 Type Conversion
 ^^^^^^^^^^^^^^^
 
-====================  ===========================================================================================
-Function              Effect
-====================  ===========================================================================================
-:func:`bin`           Converts an integer number to a binary string.
-:func:`bool`          Converts a value to boolean.
-:func:`complex`       Converts a value to a complex number.
-:func:`float`         Converts a value to a floating point number.
-:func:`hex`           Converts a value to its hex representation.
-:func:`int`           Converts a value to an integer.
-:func:`oct`           Converts a value to its oct representation.
-:func:`str`           Converts a value to a string.
-====================  ===========================================================================================
+============================================  ===========================================================================================
+Function                                      Effect
+============================================  ===========================================================================================
+:func:`bin`                                   Converts an integer number to a binary string.
+:func:`bool`                                  Converts a value to boolean.
+:func:`complex`                               Converts a value to a complex number.
+:func:`float`                                 Converts a value to a floating point number.
+:func:`hex`                                   Converts a value to its hex representation.
+:func:`int`                                   Converts a value to an integer.
+:func:`oct`                                   Converts a value to its oct representation.
+:func:`str`                                   Converts a value to a string.
+============================================  ===========================================================================================
 
 
 Statistical

@@ -1,7 +1,7 @@
 Quickstart
 ==========
 
-(What to accomplish)
+This quickstart tutorial will take you through the very basic process behind creating a dataset with DataBake. You will learn how to specify columns and their relationships, preview your dataset and finally export it.
 
 To get started, enter a project name under the 'Create a new project' heading and click 'Let's go'. This will enable you to track your projects and change the datasets later. Alternatively, you can load a template dataset.
 

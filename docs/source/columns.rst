@@ -14,7 +14,7 @@ Custom
 Alternatively, column types can be defined manually. Users can add `providers`_ and `wrappers`_ to define the ways in which the data will be generated.
 
 Providers
----------
+^^^^^^^^^
 (Need a big reference manual)
 
 Providers are functions which generate random values.
@@ -22,8 +22,13 @@ Providers are functions which generate random values.
 Locales
 ^^^^^^^
 
+Formatters
+^^^^^^^^^^
+
 Distributions
 ^^^^^^^^^^^^^
+
+
 
 Choice Distributions
 ^^^^^^^^^^^^^^^^^^^^
@@ -32,7 +37,7 @@ Wrappers
 --------
 Wrappers allow for a series of operations to be applied to each value generated for a column. These will be applied in the sequence in which they are added.
 
-At this time the following operations are available
+At this time the following operations are available:
 
 ===========   ======================================================================
 Wrapper       Effect
