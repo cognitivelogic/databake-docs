@@ -97,13 +97,13 @@ Type Conversion
 Function                                      Effect
 ============================================  ===========================================================================================
 :func:`bin`                                   Converts an integer number to a binary string.
-:func:`bool`                                  Converts a value to boolean.
-:func:`complex`                               Converts a value to a complex number.
-:func:`float`                                 Converts a value to a floating point number.
+:class:`bool`                                 Converts a value to boolean.
+:class:`complex`                              Converts a value to a complex number.
+:class:`float`                                Converts a value to a floating point number.
 :func:`hex`                                   Converts a value to its hex representation.
-:func:`int`                                   Converts a value to an integer.
+:class:`int`                                  Converts a value to an integer.
 :func:`oct`                                   Converts a value to its oct representation.
-:func:`str`                                   Converts a value to a string.
+:class:`str`                                  Converts a value to a string.
 ============================================  ===========================================================================================
 
 
