@@ -8,6 +8,7 @@ To get started, enter a project name under the 'Create a new project' heading an
 .. figure:: images/quickstart/createproject.png
     :figwidth: 70%
     :align: center
+    :scale: 50%
 
     The create project field.
 
@@ -18,6 +19,7 @@ You will also notice that a help icon on the top right of the main body and in v
 .. figure:: images/quickstart/projectscreen.png
     :figwidth: 70%
     :align: center
+    :scale: 50%
 
     The project view.
 
@@ -28,6 +30,7 @@ Firstly, define the column variables by clicking the 'Add' button underneath the
 .. figure:: images/quickstart/addcolumn.png
     :figwidth: 70%
     :align: center
+    :scale: 50%
 
     The column creation dialog.
 
@@ -36,6 +39,7 @@ For this example, the first pre-defined column we will be adding is **Name** - w
 .. figure:: images/quickstart/column.png
     :figwidth: 70%
     :align: center
+    :scale: 50%
 
     The columns tab.
 
@@ -44,6 +48,7 @@ Next, click 'Add' again, scroll down the drop down menu to demographic data and 
 .. figure:: images/quickstart/agecolumn.png
     :figwidth: 70%
     :align: center
+    :scale: 50%
 
     A numerical columns preview
 
@@ -52,6 +57,7 @@ As an example, next 'Add' in a custom column. Type an example column name, such 
 .. figure:: images/quickstart/threecolumns.png
     :figwidth: 70%
     :align: center
+    :scale: 50%
 
     Three columns.
 
@@ -64,6 +70,7 @@ You can now click on 'Preview' to view your dataset and insights in a table and 
 .. figure:: images/quickstart/previewcharts.png
     :figwidth: 70%
     :align: center
+    :scale: 50%
 
     Preview of charts.
 
@@ -72,6 +79,7 @@ If you are interested in seeing a sample of raw data, a preview is available in 
 .. figure:: images/quickstart/previewdata.png
     :figwidth: 70%
     :align: center
+    :scale: 50%
 
     Preview of the table.
 

@@ -160,7 +160,7 @@ html_short_title = 'DataBake'
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 #
-html_logo = 'images/DataBake_200x200.png'
+html_logo = 'images/DataBake.png'
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -274,6 +274,7 @@ latex_elements = {
 
     # Remove blank pages after sections
     'classoptions': ',openany,oneside',
+    'extraclassoptions': 'openany',
     'babel': '\\usepackage[english]{babel}'
 }
 
@@ -281,12 +282,12 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [(master_doc, 'DataBake.tex', 'DataBake Documentation',
-                    'John Children', 'manual'), ]
+                    'John Children', 'manual', True), ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
 #
-# latex_logo = None
+latex_logo = 'images/DataBake.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
