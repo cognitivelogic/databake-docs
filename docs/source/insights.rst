@@ -35,10 +35,12 @@ The most powerful aspect of *Insights* is the ability to add relationships betwe
 Supposing that you have already defined three columns, *age*, *average_product_price*, and *favourite_product*, you can now define a simple relationship between the age of the customers in our dataset and the price of the products they are buying.
 
 .. graph:: unconnected_columns
+    :align: center
+    :caption: Unconnected columns.
 
-   "age"
-   "average_product_price"
-   "favourite_product"
+    "age"
+    "average_product_price"
+    "favourite_product"
 
 This is performed by creating an insight for *average_product_price* and setting one of the arguments in the provider to be derived from the *age* column. This will mean that each time a value for *average_product_price* is generated for the dataset, the value in the age column will be used as a contributing factor.
 
@@ -46,7 +48,9 @@ For example, if *average_product_price* uses a normal distribution to generate v
 
 This insight could be visualised as a connection between the two variables in a directed graph.
 
- .. digraph:: connected_columns
+.. digraph:: connected_columns
+    :align: center
+    :caption: A single relationship.
 
     "age" -> "average_product_price"
     "favourite_product"
@@ -55,7 +59,9 @@ Extending this idea further, more relationships can be added between *favourite_
 
 These relationships are defined before generation and used to order each generated column, but it means there is an important condition that the relationships between columns must form a `directed acyclic graph <https://en.wikipedia.org/wiki/Directed_acyclic_graph>`_ - such that no variable is dependent upon itself.
 
- .. digraph:: connected_columns
+.. digraph:: connected_columns
+    :align: center
+    :caption: The complete relationships
 
     "age" -> "average_product_price" -> "favourite_product"
     "age" -> "favourite_product"
@@ -71,52 +77,58 @@ In order to provide flexibility in dataset creation a number of extra functions 
 Builtins
 ^^^^^^^^
 
-============================================  ===========================================================================================
-Function                                      Effect
-============================================  ===========================================================================================
-:func:`abs`                                   Returns the absolute value of a numerical object.
-:func:`all`                                   Returns true if all conditions in an iterable are met.
-:func:`any`                                   Returns true if any conditions in an iterable are met.
-:func:`chr`                                   Returns the string character of an integer.
-:func:`dir`                                   Returns the list of names in the current scope.
-:func:`hash`                                  Returns the hash value of the object.
-:func:`len`                                   Returns the number of items of an object.
-:func:`max`                                   Returns the largest value in an object.
-:func:`min`                                   Returns the smallest value in an object.
-:func:`ord`                                   Returns integer representation of a unicode character.
-:func:`pow`                                   Returns the first argument to the power of the second.
-:func:`round`                                 Returns the first value rounded to digits specified by the second.
-:func:`sorted`                                Returns a sorted version of an object.
-:func:`sum`                                   Returns the sum of all objects.
-============================================  ===========================================================================================
+.. table:: Common builtin functions.
+
+    ============================================  ===========================================================================================
+    Function                                      Effect
+    ============================================  ===========================================================================================
+    :func:`abs`                                   Returns the absolute value of a numerical object.
+    :func:`all`                                   Returns true if all conditions in an iterable are met.
+    :func:`any`                                   Returns true if any conditions in an iterable are met.
+    :func:`chr`                                   Returns the string character of an integer.
+    :func:`dir`                                   Returns the list of names in the current scope.
+    :func:`hash`                                  Returns the hash value of the object.
+    :func:`len`                                   Returns the number of items of an object.
+    :func:`max`                                   Returns the largest value in an object.
+    :func:`min`                                   Returns the smallest value in an object.
+    :func:`ord`                                   Returns integer representation of a unicode character.
+    :func:`pow`                                   Returns the first argument to the power of the second.
+    :func:`round`                                 Returns the first value rounded to digits specified by the second.
+    :func:`sorted`                                Returns a sorted version of an object.
+    :func:`sum`                                   Returns the sum of all objects.
+    ============================================  ===========================================================================================
 
 Type Conversion
 ^^^^^^^^^^^^^^^
 
-============================================  ===========================================================================================
-Function                                      Effect
-============================================  ===========================================================================================
-:func:`bin`                                   Converts an integer number to a binary string.
-:class:`bool`                                 Converts a value to boolean.
-:class:`complex`                              Converts a value to a complex number.
-:class:`float`                                Converts a value to a floating point number.
-:func:`hex`                                   Converts a value to its hex representation.
-:class:`int`                                  Converts a value to an integer.
-:func:`oct`                                   Converts a value to its oct representation.
-:class:`str`                                  Converts a value to a string.
-============================================  ===========================================================================================
+.. table:: Type functions.
+
+    ============================================  ===========================================================================================
+    Function                                      Effect
+    ============================================  ===========================================================================================
+    :func:`bin`                                   Converts an integer number to a binary string.
+    :class:`bool`                                 Converts a value to boolean.
+    :class:`complex`                              Converts a value to a complex number.
+    :class:`float`                                Converts a value to a floating point number.
+    :func:`hex`                                   Converts a value to its hex representation.
+    :class:`int`                                  Converts a value to an integer.
+    :func:`oct`                                   Converts a value to its oct representation.
+    :class:`str`                                  Converts a value to a string.
+    ============================================  ===========================================================================================
 
 
 Statistical
 ^^^^^^^^^^^
 
-============================================  ===========================================================================================
-Function                                      Effect
-============================================  ===========================================================================================
-:func:`normal <numpy.random.normal>`          Draws random samples from a normal distribution.
-:func:`triangular <numpy.random.triangular>`  Draws random samples from a triangular distribution.
-:func:`uniform <numpy.random.uniform>`        Draws random samples from a uniform distribution.
-:func:`poisson <numpy.random.poisson>`        Draws random samples from a poisson distribution.
-:func:`beta <numpy.random.beta>`              Draws random samples from a beta distribution.
-============================================  ===========================================================================================
+.. table:: Statistical functions.
+
+    ============================================  ===========================================================================================
+    Function                                      Effect
+    ============================================  ===========================================================================================
+    :func:`normal <numpy.random.normal>`          Draws random samples from a normal distribution.
+    :func:`triangular <numpy.random.triangular>`  Draws random samples from a triangular distribution.
+    :func:`uniform <numpy.random.uniform>`        Draws random samples from a uniform distribution.
+    :func:`poisson <numpy.random.poisson>`        Draws random samples from a poisson distribution.
+    :func:`beta <numpy.random.beta>`              Draws random samples from a beta distribution.
+    ============================================  ===========================================================================================
 

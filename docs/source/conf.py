@@ -160,7 +160,7 @@ html_short_title = 'DataBake'
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 #
-# html_logo = 'images/logo.png'
+html_logo = 'images/DataBake_200x200.png'
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -445,3 +445,9 @@ intersphinx_mapping = {
     'asteval': ('https://newville.github.io/asteval/', None),
     'numpy': ('https://docs.scipy.org/doc/numpy/', None)
 }
+
+# -- Options for GraphViz ----------------------------------------------
+
+# Output format (svg or png)
+#
+graphviz_output_format = 'svg'
