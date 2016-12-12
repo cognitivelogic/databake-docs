@@ -12,7 +12,7 @@ While there are a number of template projects available to view, for this tutori
 
     The create project field.
 
-Creating a new project will take you through to the main page - where you can define the variables and the insights in your personalised generated dataset. The title of your new project will appear on the top left-hand side and below it a list of tables in the project. Interacting with this list, you can re-name the table you are about to generate as it will become the name for the output file when exporting your dataset.
+Creating a new project will take you through to the main page - where you can define the columns and the insights in your personalised generated dataset. The title of your new project will appear on the top left-hand side and below it a list of tables in the project. Interacting with this list, you can re-name the table you are about to generate as it will become the name for the output file when exporting your dataset.
 
 You will notice that a help icon on the top right of the main body and in various other places throughout the site. This will lead to the documentation for that section allowing you to quickly gain more insight into the process. If the documentation is not able to help you can also send a support ticket through the tab on the right hand side of the page.
 
