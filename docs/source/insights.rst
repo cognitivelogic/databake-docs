@@ -82,6 +82,8 @@ In order to provide flexibility in dataset creation a number of extra functions 
 Builtins
 ^^^^^^^^
 
+Builtins are basic python functions for commonly usef operations.
+
 .. table:: Common builtin functions.
 
     ============================================  ===========================================================================================
@@ -106,6 +108,8 @@ Builtins
 Type Conversion
 ^^^^^^^^^^^^^^^
 
+Type conversions let you manipulate the kinds of data being passed into functions.
+
 .. table:: Type functions.
 
     ============================================  ===========================================================================================
@@ -124,6 +128,8 @@ Type Conversion
 
 Statistical
 ^^^^^^^^^^^
+
+Statisical functions let you draw values from distributions to be used as function arguments.
 
 .. table:: Statistical functions.
 

@@ -21,6 +21,8 @@ Providers are functions which generate random values for the columns. They allow
 Basic
 ^^^^^
 
+Basic providers are simple providers for generating specific kinds of data.
+
 .. table:: Basic providers
 
     ==============================   ========================================================================================
@@ -39,6 +41,8 @@ Basic
 
 Profile
 ^^^^^^^
+
+Profile providers relate to personal information about individuals commonly used in datasets.
 
 .. table:: Profile providers 
 
@@ -91,9 +95,8 @@ Choice distributions are some of the most convoluted but powerful providers whic
 
 Wrappers
 --------
-Wrappers allow for a series of operations to be applied to each value generated for a column. These will be applied in the sequence in which they are added.
 
-At this time the following operations are available:
+Wrappers allow for a series of operations to be applied to each value generated for a column. These will be applied in the sequence in which they are added.
 
 
 .. table:: Wrappers
