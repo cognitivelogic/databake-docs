@@ -82,7 +82,7 @@ In order to provide flexibility in dataset creation a number of extra functions 
 Builtins
 ^^^^^^^^
 
-Builtins are basic python functions for commonly usef operations.
+Builtins are basic python functions for commonly used operations.
 
 .. table:: Common builtin functions.
 
@@ -96,8 +96,8 @@ Builtins are basic python functions for commonly usef operations.
     :func:`dir`                                   Returns the list of names in the current scope.
     :func:`hash`                                  Returns the hash value of the object.
     :func:`len`                                   Returns the number of items of an object.
-    :func:`max`                                   Returns the largest value in an object.
-    :func:`min`                                   Returns the smallest value in an object.
+    :func:`max <numpy.amax>`                      Returns the largest value in an object.
+    :func:`min <numpy.amin>`                      Returns the smallest value in an object.
     :func:`ord`                                   Returns integer representation of a unicode character.
     :func:`pow`                                   Returns the first argument to the power of the second.
     :func:`round`                                 Returns the first value rounded to digits specified by the second.
