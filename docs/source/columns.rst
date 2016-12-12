@@ -11,7 +11,7 @@ A number of pre-defined column types are available that can be easily added to y
 Custom
 ------
 
-Alternatively, column types can be defined manually. Users can add `providers`_ and `wrappers`_ to define the ways in which the data will be generated.
+Alternatively, column types can be defined manually in custom mode. From the custom tab, in addition to specifying a column name, you can choose your `providers`_ and `wrappers`_ to define the ways in which the data will be generated. Values for the column can then be tweaked with :doc:`insights`.
 
 Providers
 ^^^^^^^^^
@@ -27,7 +27,7 @@ Basic
     Function                         Effect
     ==============================   ========================================================================================
     Custom                           Returns a single value, very useful when combined with Insights.
-    ISO Date                         Generates a timestamp from within the unix epoch.
+    ISO Date                         Generates a timestamp between the 1st of January 1970 and the time of generation.
     String                           Returns a string specified by the formatting::
 
                                         ? will be replaced a random letter
