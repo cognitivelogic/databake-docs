@@ -63,7 +63,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'DataBake'
-copyright = '2016, Cognitive Logic'
+copyright = '2017, InfoSum'
 author = 'John Children'
 
 # The version info for the project you're documenting, acts as replacement for
